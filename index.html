@@ -2,15 +2,17 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    <title>Make Asynchronous Requests</title>
+    <title>What's on your mind?</title>
 </head>
 <body>
-    <header>
+    <header class="masthead">
         <h1>What's on your mind?</h1>
 
-        <div>
+        <div class="site-container">
             <form id="search-form" action="#">
+                <label for="search-keyword" class="visuallyhidden">What's on your mind?</label>
                 <input id="search-keyword" type="text" name="search-keyword" placeholder="e.g. Nike" required>
                 <input id="submit-btn" type="submit" value="Submit">
             </form>
