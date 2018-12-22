@@ -20,7 +20,7 @@
 		.then(addImage)
 		.catch(e => requestError(e, 'image'));
 
-		fetch(`http://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}&api-key=${nytimesApiKey}`)
+		fetch(`https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}&api-key=${nytimesApiKey}`)
 		.then(response => response.json())
 		.then(addArticles)
 		.catch(e => requestError(e, 'article'));
