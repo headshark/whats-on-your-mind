@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
+    <title>What's on your mind?</title>
+</head>
+<body>
+    <header class="masthead">
+        <h1>What's on your mind?</h1>
+
+        <div class="site-container">
+            <form id="search-form" action="#">
+                <label for="search-keyword" class="visuallyhidden">What's on your mind?</label>
+                <input id="search-keyword" type="text" name="search-keyword" placeholder="e.g. Nike" required>
+                <input id="submit-btn" type="submit" value="Submit">
+            </form>
+        </div>
+    </header>
+
+    <div class="site-container">
+        <div id="response-container"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
