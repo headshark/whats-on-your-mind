@@ -52,7 +52,7 @@
 	            </li>`
             ).join('') + '</ul>';
         } else {
-            htmlContent = '<div class="error-no-image">No articles available</div>';
+            htmlContent = '<div class="error-no-articles">No articles available</div>';
         }
 
         responseContainer.insertAdjacentHTML('beforeend', htmlContent);
